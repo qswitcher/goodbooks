@@ -1,840 +1,2854 @@
-[
-  {
-    "kind": "books#volume",
-    "id": "PXa2bby0oQ0C",
-    "etag": "oqd7PMFBrUo",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/PXa2bby0oQ0C",
-    "volumeInfo": {
-      "title": "JavaScript: The Good Parts",
-      "subtitle": "The Good Parts",
-      "authors": ["Douglas Crockford"],
-      "publisher": "\"O'Reilly Media, Inc.\"",
-      "publishedDate": "2008-05-08",
-      "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code. Considered the JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation. Unfortunately, these good ideas are mixed in with bad and downright awful ideas, like a programming model based on global variables. When Java applets failed, JavaScript became the language of the Web by default, making its popularity almost completely independent of its qualities as a programming language. In JavaScript: The Good Parts, Crockford finally digs through the steaming pile of good intentions and blunders to give you a detailed look at all the genuinely elegant parts of JavaScript, including: Syntax Objects Functions Inheritance Arrays Regular expressions Methods Style Beautiful features The real beauty? As you move ahead with the subset of JavaScript that this book presents, you'll also sidestep the need to unlearn all the bad parts. Of course, if you want to find out more about the bad parts and how to use them badly, simply consult any other JavaScript book. With JavaScript: The Good Parts, you'll discover a beautiful, elegant, lightweight and highly expressive language that lets you create effective code, whether you're managing object libraries or just trying to get Ajax to run fast. If you develop sites or applications for the Web, this book is an absolute must.",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_13",
-          "identifier": "9780596554873"
-        },
-        {
-          "type": "ISBN_10",
-          "identifier": "0596554877"
-        }
-      ],
-      "readingModes": {
-        "text": true,
-        "image": true
-      },
-      "pageCount": 172,
-      "printType": "BOOK",
-      "categories": ["Computers"],
-      "averageRating": 4.5,
-      "ratingsCount": 44,
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": true,
-      "contentVersion": "0.6.6.0.preview.3",
-      "panelizationSummary": {
-        "containsEpubBubbles": false,
-        "containsImageBubbles": false
-      },
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=PXa2bby0oQ0C&printsec=frontcover&dq=javascript&hl=&cd=1&source=gbs_api",
-      "infoLink": "https://play.google.com/store/books/details?id=PXa2bby0oQ0C&source=gbs_api",
-      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=PXa2bby0oQ0C"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "FOR_SALE",
-      "isEbook": true,
-      "listPrice": {
-        "amount": 23.99,
-        "currencyCode": "USD"
-      },
-      "retailPrice": {
-        "amount": 13.6,
-        "currencyCode": "USD"
-      },
-      "buyLink": "https://play.google.com/store/books/details?id=PXa2bby0oQ0C&rdid=book-PXa2bby0oQ0C&rdot=1&source=gbs_api",
-      "offers": [
-        {
-          "finskyOfferType": 1,
-          "listPrice": {
-            "amountInMicros": 23990000,
-            "currencyCode": "USD"
+{
+  "kind": "books#volumes",
+  "totalItems": 2393,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "RJxWIQOvoZUC",
+      "etag": "lqE8fOwdERg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RJxWIQOvoZUC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Gail Saunders-Smith"],
+        "publisher": "Capstone",
+        "publishedDate": "1998",
+        "description": "Simple text and photographs depict the parts of flowers and their pollination.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1560657693"
           },
-          "retailPrice": {
-            "amountInMicros": 13600000,
-            "currencyCode": "USD"
-          },
-          "giftable": true
-        }
-      ]
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "PARTIAL",
-      "embeddable": true,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": true
-      },
-      "pdf": {
-        "isAvailable": true
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=PXa2bby0oQ0C&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "SAMPLE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "If you develop sites or applications for the Web, this book is an absolute must."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "G1WpVW63XM0C",
-    "etag": "fM6VGnRrfiQ",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/G1WpVW63XM0C",
-    "volumeInfo": {
-      "title": "JavaScript Essentials",
-      "publisher": "Smashing Magazine",
-      "publishedDate": "2012",
-      "description": "The number of online solutions provided for JavaScript is growing every day. However, the workflow of Web developers and designers frequently culminates to confusion and disorientation due the information overflow. In order to organize this information and provide you with helpful guidelines to successfully optimize your next Web project, we offer you this Smashing eBook JavaScript Essentials (eBook #13). Filled with up-to-date lessons on coding reviews, JavaScript scopes and implementations, AJAX and various tips on JavaScript solutions, this eBook is essential for improving your JavaScript knowledge. TABLE OF CONTENTS - Seven JavaScript Things I Wish I Knew Much Earlier In My Career - Lessons From A Review Of JavaScript Code - Find The Right JavaScript Solution With A 7-Step Test - Ten Oddities And Secrets About JavaScript - What You Need To Know About JavaScript Scope - The Seven Deadly Sins Of JavaScript Implementation - A Quick Look Into The Math Of Animations With JavaScript - Searchable Dynamic Content With AJAX Crawling",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_13",
-          "identifier": "9783943075212"
-        },
-        {
-          "type": "ISBN_10",
-          "identifier": "3943075214"
-        }
-      ],
-      "readingModes": {
-        "text": true,
-        "image": true
-      },
-      "printType": "BOOK",
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": true,
-      "contentVersion": "0.2.2.0.preview.3",
-      "panelizationSummary": {
-        "containsEpubBubbles": false,
-        "containsImageBubbles": false
-      },
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=G1WpVW63XM0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=G1WpVW63XM0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=G1WpVW63XM0C&printsec=frontcover&dq=javascript&hl=&cd=2&source=gbs_api",
-      "infoLink": "https://play.google.com/store/books/details?id=G1WpVW63XM0C&source=gbs_api",
-      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=G1WpVW63XM0C"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "FOR_SALE",
-      "isEbook": true,
-      "listPrice": {
-        "amount": 4.99,
-        "currencyCode": "USD"
-      },
-      "retailPrice": {
-        "amount": 3.82,
-        "currencyCode": "USD"
-      },
-      "buyLink": "https://play.google.com/store/books/details?id=G1WpVW63XM0C&rdid=book-G1WpVW63XM0C&rdot=1&source=gbs_api",
-      "offers": [
-        {
-          "finskyOfferType": 1,
-          "listPrice": {
-            "amountInMicros": 4990000,
-            "currencyCode": "USD"
-          },
-          "retailPrice": {
-            "amountInMicros": 3820000,
-            "currencyCode": "USD"
-          },
-          "giftable": true
-        }
-      ]
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "PARTIAL",
-      "embeddable": true,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": true
-      },
-      "pdf": {
-        "isAvailable": true
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=G1WpVW63XM0C&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "SAMPLE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "The number of online solutions provided for JavaScript is growing every day. However, the workflow of Web developers and designers frequently culminates to confusion and disorientation due the information overflow."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "fkX55OhYCmgC",
-    "etag": "Jc+kN2qk0Dw",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/fkX55OhYCmgC",
-    "volumeInfo": {
-      "title": "JavaScript",
-      "subtitle": "Introductory",
-      "authors": ["Don Gosselin"],
-      "publisher": "Course Technology Ptr",
-      "publishedDate": "2001-11-01",
-      "description": "This exciting second edition enables users to create dynamic Web pages using the popular Web scripting language, JavaScript. Building on the successful philosophy of the first edition, readers build applications from the bottom up, requiring no previous programming experience except HTML.",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_10",
-          "identifier": "0619063335"
-        },
-        {
-          "type": "ISBN_13",
-          "identifier": "9780619063337"
-        }
-      ],
-      "readingModes": {
-        "text": false,
-        "image": false
-      },
-      "pageCount": 500,
-      "printType": "BOOK",
-      "categories": ["Computers"],
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": false,
-      "contentVersion": "preview-1.0.0",
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=fkX55OhYCmgC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=fkX55OhYCmgC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=fkX55OhYCmgC&q=javascript&dq=javascript&hl=&cd=3&source=gbs_api",
-      "infoLink": "http://books.google.com/books?id=fkX55OhYCmgC&dq=javascript&hl=&source=gbs_api",
-      "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript.html?hl=&id=fkX55OhYCmgC"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "NO_PAGES",
-      "embeddable": false,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": false
-      },
-      "pdf": {
-        "isAvailable": false
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=fkX55OhYCmgC&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "NONE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "This exciting second edition enables users to create dynamic Web pages using the popular Web scripting language, JavaScript."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "4RCEGbMrZ7oC",
-    "etag": "J0rl5KPL6so",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/4RCEGbMrZ7oC",
-    "volumeInfo": {
-      "title": "Building Android Apps with HTML, CSS, and JavaScript",
-      "authors": [
-        "Jonathan Stark",
-        "Paco Nathan",
-        "John Papaconstantinou",
-        "Paco Lagerstrom",
-        "Paco Hope"
-      ],
-      "publisher": "\"O'Reilly Media, Inc.\"",
-      "publishedDate": "2010-09-27",
-      "description": "If you know HTML, CSS, and JavaScript, you already have the tools you need to develop Android applications. This hands-on book shows you how to use these open source web standards to design and build apps that can be adapted for any Android device -- without having to use Java. You'll learn how to create an Android-friendly web app on the platform of your choice, and then convert it to a native Android app with the free PhoneGap framework. Discover why device-agnostic mobile apps are the wave of the future, and start building apps that offer greater flexibility and a broader reach. Learn the basics for making a web page look great on the Android web browser Convert a website into a web application, complete with progress indicators and more Add animation with jQTouch to make your web app look and feel like a native Android app Take advantage of client-side data storage with apps that run even when the Android device is offline Use PhoneGap to hook into advanced Android features -- including the accelerometer, geolocation, and alerts Test and debug your app on the Web under load with real users, and then submit the finished product to the Android Market This book received valuable community input through O'Reilly's Open Feedback Publishing System (OFPS). Learn more at http://labs.oreilly.com/ofps.html.",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_10",
-          "identifier": "1449396933"
-        },
-        {
-          "type": "ISBN_13",
-          "identifier": "9781449396930"
-        }
-      ],
-      "readingModes": {
-        "text": true,
-        "image": true
-      },
-      "pageCount": 184,
-      "printType": "BOOK",
-      "categories": ["Computers"],
-      "averageRating": 2,
-      "ratingsCount": 5,
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": true,
-      "contentVersion": "0.8.7.0.preview.3",
-      "panelizationSummary": {
-        "containsEpubBubbles": false,
-        "containsImageBubbles": false
-      },
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=4RCEGbMrZ7oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=4RCEGbMrZ7oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=4RCEGbMrZ7oC&printsec=frontcover&dq=javascript&hl=&cd=4&source=gbs_api",
-      "infoLink": "http://books.google.com/books?id=4RCEGbMrZ7oC&dq=javascript&hl=&source=gbs_api",
-      "canonicalVolumeLink": "https://books.google.com/books/about/Building_Android_Apps_with_HTML_CSS_and.html?hl=&id=4RCEGbMrZ7oC"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "PARTIAL",
-      "embeddable": true,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": true
-      },
-      "pdf": {
-        "isAvailable": true
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=4RCEGbMrZ7oC&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "SAMPLE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "This hands-on book shows you how to use these open source web standards to design and build apps that can be adapted for any Android device -- without having to use Java."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "yH9GAAAAYAAJ",
-    "etag": "mmkvfKN4WDE",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/yH9GAAAAYAAJ",
-    "volumeInfo": {
-      "title": "Javascript",
-      "subtitle": "Complete Concepts and Techniques",
-      "publishedDate": "2000",
-      "description": "The Shelly Cashman Series offers cutting-edge books that make it easy to learn about computers. Shelly and Cashman's step-by-step, screen-by-screen approach to learning guarantees success. Full-color screen shots follow every step, making it nearly impossible for readers to lose their way. -- Project opening pages provide depth and perspective for each project -- Exercises at the end of each project including the unique \"Cases and Places\", reinforce learning -- Pending approval for Microsoft Office User Specialist certification -- Teaches users to: access pictures from the World Wide Web, create Web pages, perform Excel Web queries, add hyperlinks to Office documents, and much more -- \"Other Ways\" Boxes show the user several ways to perform tasks -- Completion Time: 90+hrs. -- Office Suite 30-40hrs. -- Comprehensive 20-30hrs. -- Complete",
-      "industryIdentifiers": [
-        {
-          "type": "OTHER",
-          "identifier": "UVA:X004345512"
-        }
-      ],
-      "readingModes": {
-        "text": false,
-        "image": false
-      },
-      "pageCount": 432,
-      "printType": "BOOK",
-      "categories": ["JavaScript (Computer program language)."],
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": false,
-      "contentVersion": "preview-1.0.0",
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=yH9GAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=yH9GAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=yH9GAAAAYAAJ&q=javascript&dq=javascript&hl=&cd=5&source=gbs_api",
-      "infoLink": "http://books.google.com/books?id=yH9GAAAAYAAJ&dq=javascript&hl=&source=gbs_api",
-      "canonicalVolumeLink": "https://books.google.com/books/about/Javascript.html?hl=&id=yH9GAAAAYAAJ"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "NO_PAGES",
-      "embeddable": false,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": false
-      },
-      "pdf": {
-        "isAvailable": false
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=yH9GAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "NONE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "The Shelly Cashman Series offers cutting-edge books that make it easy to learn about computers. Shelly and Cashman&#39;s step-by-step, screen-by-screen approach to learning guarantees success."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "MPPy5KpAZQ0C",
-    "etag": "VjyMq7GEQpI",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/MPPy5KpAZQ0C",
-    "volumeInfo": {
-      "title": "An Introduction to HTML and JavaScript",
-      "subtitle": "for Scientists and Engineers",
-      "authors": ["David R. Brooks"],
-      "publisher": "Springer Science & Business Media",
-      "publishedDate": "2007-06-30",
-      "description": "Dual-use technological writing at its best. This book presents HTML and JavaScript in a way that uniquely meets the needs of students in both engineering and the sciences. The author shows how to create simple client-side applications for scientific and engineering calculations. Complete HTML/JavaScript examples with science/engineering applications are used throughout to guide the reader comprehensively through the subject. The book gives the reader a sufficient understanding of HTML and JavaScript to write their online applications. This book emphasises basic programming principles in a modern Web-oriented environment, making it suitable for an introductory programming course for non-computer science majors. It is also ideal for self-study.",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_13",
-          "identifier": "9781846286575"
-        },
-        {
-          "type": "ISBN_10",
-          "identifier": "1846286573"
-        }
-      ],
-      "readingModes": {
-        "text": false,
-        "image": true
-      },
-      "pageCount": 200,
-      "printType": "BOOK",
-      "categories": ["Computers"],
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": false,
-      "contentVersion": "2.1.0.0.preview.1",
-      "panelizationSummary": {
-        "containsEpubBubbles": false,
-        "containsImageBubbles": false
-      },
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=MPPy5KpAZQ0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=MPPy5KpAZQ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=MPPy5KpAZQ0C&printsec=frontcover&dq=javascript&hl=&cd=6&source=gbs_api",
-      "infoLink": "https://play.google.com/store/books/details?id=MPPy5KpAZQ0C&source=gbs_api",
-      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MPPy5KpAZQ0C"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "FOR_SALE_AND_RENTAL",
-      "isEbook": true,
-      "listPrice": {
-        "amount": 64.99,
-        "currencyCode": "USD"
-      },
-      "retailPrice": {
-        "amount": 51.99,
-        "currencyCode": "USD"
-      },
-      "buyLink": "https://play.google.com/store/books/details?id=MPPy5KpAZQ0C&rdid=book-MPPy5KpAZQ0C&rdot=1&source=gbs_api",
-      "offers": [
-        {
-          "finskyOfferType": 1,
-          "listPrice": {
-            "amountInMicros": 64990000,
-            "currencyCode": "USD"
-          },
-          "retailPrice": {
-            "amountInMicros": 51990000,
-            "currencyCode": "USD"
-          },
-          "giftable": true
-        },
-        {
-          "finskyOfferType": 3,
-          "listPrice": {
-            "amountInMicros": 22750000,
-            "currencyCode": "USD"
-          },
-          "retailPrice": {
-            "amountInMicros": 19790000,
-            "currencyCode": "USD"
-          },
-          "rentalDuration": {
-            "unit": "DAY",
-            "count": 90
+          {
+            "type": "ISBN_13",
+            "identifier": "9781560657699"
           }
-        }
-      ]
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "PARTIAL",
-      "embeddable": true,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
-      "epub": {
-        "isAvailable": false
-      },
-      "pdf": {
-        "isAvailable": true,
-        "acsTokenLink": "http://books.google.com/books/download/An_Introduction_to_HTML_and_JavaScript-sample-pdf.acsm?id=MPPy5KpAZQ0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=MPPy5KpAZQ0C&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "SAMPLE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "Dual-use technological writing at its best. This book presents HTML and JavaScript in a way that uniquely meets the needs of students in both engineering and the sciences."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "ymDsh5yOfpsC",
-    "etag": "QfRHeupPiNE",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/ymDsh5yOfpsC",
-    "volumeInfo": {
-      "title": "JavaScript Web Applications",
-      "authors": ["Alex MacCaw"],
-      "publisher": "\"O'Reilly Media, Inc.\"",
-      "publishedDate": "2011-08-18",
-      "description": "Provides information on creating Web applications with JavaScript, covering such topics as structure, frameworks, templating, and communicating with the server.",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_13",
-          "identifier": "9781449303518"
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
         },
-        {
-          "type": "ISBN_10",
-          "identifier": "144930351X"
-        }
-      ],
-      "readingModes": {
-        "text": false,
-        "image": true
-      },
-      "pageCount": 255,
-      "printType": "BOOK",
-      "categories": ["Computers"],
-      "averageRating": 4,
-      "ratingsCount": 1,
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": true,
-      "contentVersion": "0.1.0.0.preview.1",
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=ymDsh5yOfpsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=ymDsh5yOfpsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=ymDsh5yOfpsC&printsec=frontcover&dq=javascript&hl=&cd=7&source=gbs_api",
-      "infoLink": "http://books.google.com/books?id=ymDsh5yOfpsC&dq=javascript&hl=&source=gbs_api",
-      "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript_Web_Applications.html?hl=&id=ymDsh5yOfpsC"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "PARTIAL",
-      "embeddable": true,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": false
-      },
-      "pdf": {
-        "isAvailable": true
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=ymDsh5yOfpsC&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "SAMPLE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "Provides information on creating Web applications with JavaScript, covering such topics as structure, frameworks, templating, and communicating with the server."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "2weL0iAfrEMC",
-    "etag": "6c767i+Z7mI",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/2weL0iAfrEMC",
-    "volumeInfo": {
-      "title": "JavaScript: The Definitive Guide",
-      "subtitle": "The Definitive Guide",
-      "authors": ["David Flanagan"],
-      "publisher": "\"O'Reilly Media, Inc.\"",
-      "publishedDate": "2006-08-17",
-      "description": "This Fifth Edition is completely revised and expanded to cover JavaScript as it is used in today's Web 2.0 applications. This book is both an example-driven programmer's guide and a keep-on-your-desk reference, with new chapters that explain everything you need to know to get the most out of JavaScript, including: Scripted HTTP and Ajax XML processing Client-side graphics using the canvas tag Namespaces in JavaScript--essential when writing complex programs Classes, closures, persistence, Flash, and JavaScript embedded in Java applications Part I explains the core JavaScript language in detail. If you are new to JavaScript, it will teach you the language. If you are already a JavaScript programmer, Part I will sharpen your skills and deepen your understanding of the language. Part II explains the scripting environment provided by web browsers, with a focus on DOM scripting with unobtrusive JavaScript. The broad and deep coverage of client-side JavaScript is illustrated with many sophisticated examples that demonstrate how to: Generate a table of contents for an HTML document Display DHTML animations Automate form validation Draw dynamic pie charts Make HTML elements draggable Define keyboard shortcuts for web applications Create Ajax-enabled tool tips Use XPath and XSLT on XML documents loaded with Ajax And much more Part III is a complete reference for core JavaScript. It documents every class, object, constructor, method, function, property, and constant defined by JavaScript 1.5 and ECMAScript Version 3. Part IV is a reference for client-side JavaScript, covering legacy web browser APIs, the standard Level 2 DOM API, and emerging standards such as the XMLHttpRequest object and the canvas tag. More than 300,000 JavaScript programmers around the world have madethis their indispensable reference book for building JavaScript applications. \"A must-have reference for expert JavaScript programmers...well-organized and detailed.\" -- Brendan Eich, creator of JavaScript",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_10",
-          "identifier": "0596554478"
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
         },
-        {
-          "type": "ISBN_13",
-          "identifier": "9780596554477"
-        }
-      ],
-      "readingModes": {
-        "text": true,
-        "image": true
-      },
-      "pageCount": 1032,
-      "printType": "BOOK",
-      "categories": ["Computers"],
-      "averageRating": 4,
-      "ratingsCount": 56,
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": true,
-      "contentVersion": "0.3.2.0.preview.3",
-      "panelizationSummary": {
-        "containsEpubBubbles": false,
-        "containsImageBubbles": false
-      },
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=2weL0iAfrEMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=2weL0iAfrEMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=2weL0iAfrEMC&printsec=frontcover&dq=javascript&hl=&cd=8&source=gbs_api",
-      "infoLink": "https://play.google.com/store/books/details?id=2weL0iAfrEMC&source=gbs_api",
-      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2weL0iAfrEMC"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "FOR_SALE_AND_RENTAL",
-      "isEbook": true,
-      "listPrice": {
-        "amount": 39.99,
-        "currencyCode": "USD"
-      },
-      "retailPrice": {
-        "amount": 31.19,
-        "currencyCode": "USD"
-      },
-      "buyLink": "https://play.google.com/store/books/details?id=2weL0iAfrEMC&rdid=book-2weL0iAfrEMC&rdot=1&source=gbs_api",
-      "offers": [
-        {
-          "finskyOfferType": 1,
-          "listPrice": {
-            "amountInMicros": 39990000,
-            "currencyCode": "USD"
-          },
-          "retailPrice": {
-            "amountInMicros": 31190000,
-            "currencyCode": "USD"
-          },
-          "giftable": true
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RJxWIQOvoZUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RJxWIQOvoZUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
-        {
-          "finskyOfferType": 3,
-          "listPrice": {
-            "amountInMicros": 20000000,
-            "currencyCode": "USD"
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=RJxWIQOvoZUC&printsec=frontcover&dq=flowers&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=RJxWIQOvoZUC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=RJxWIQOvoZUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RJxWIQOvoZUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Simple text and photographs depict the parts of flowers and their pollination."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "u3tgZ-hKARgC",
+      "etag": "MA4o5UPoG7k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/u3tgZ-hKARgC",
+      "volumeInfo": {
+        "title": "Hope for the Flowers",
+        "authors": ["Trina Paulus"],
+        "publisher": "Paulist Press",
+        "publishedDate": "1972",
+        "description": "A different sort of book for everyone except those who have given up completely. (and even they might secretly enjoy it.)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0809117541"
           },
-          "retailPrice": {
-            "amountInMicros": 20000000,
-            "currencyCode": "USD"
-          },
-          "rentalDuration": {
-            "unit": "DAY",
-            "count": 90
+          {
+            "type": "ISBN_13",
+            "identifier": "9780809117543"
           }
-        }
-      ]
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "PARTIAL",
-      "embeddable": true,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": true
-      },
-      "pdf": {
-        "isAvailable": true
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=2weL0iAfrEMC&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "SAMPLE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "This Fifth Edition is completely revised and expanded to cover JavaScript as it is used in today&#39;s Web 2.0 applications."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "71nDBQAAQBAJ",
-    "etag": "M0wNSivJGUI",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/71nDBQAAQBAJ",
-    "volumeInfo": {
-      "title": "JavaScript for Kids",
-      "subtitle": "A Playful Introduction to Programming",
-      "authors": ["Nick Morgan"],
-      "publisher": "No Starch Press",
-      "publishedDate": "2014-12-14",
-      "description": "JavaScript for Kids is a lighthearted introduction that teaches programming essentials through patient, step-by-step examples paired with funny illustrations. You’ll begin with the basics, like working with strings, arrays, and loops, and then move on to more advanced topics, like building interactivity with jQuery and drawing graphics with Canvas. Along the way, you’ll write games such as Find the Buried Treasure, Hangman, and Snake. You’ll also learn how to: Create functions to organize and reuse your codeWrite and modify HTML to create dynamic web pagesUse the DOM and jQuery to make your web pages react to user inputUse the Canvas element to draw and animate graphicsProgram real user-controlled games with collision detection and score keeping With visual examples like bouncing balls, animated bees, and racing cars, you can really see what you’re programming. Each chapter builds on the last, and programming challenges at the end of each chapter will stretch your brain and inspire your own amazing programs. Make something cool with JavaScript today! Ages 10+ (and their parents!)",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_13",
-          "identifier": "9781593274085"
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
         },
-        {
-          "type": "ISBN_10",
-          "identifier": "1593274084"
-        }
-      ],
-      "readingModes": {
-        "text": true,
-        "image": true
-      },
-      "pageCount": 336,
-      "printType": "BOOK",
-      "categories": ["Juvenile Nonfiction"],
-      "averageRating": 4,
-      "ratingsCount": 1,
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": true,
-      "contentVersion": "1.1.1.0.preview.3",
-      "panelizationSummary": {
-        "containsEpubBubbles": false,
-        "containsImageBubbles": false
-      },
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=71nDBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=71nDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-      },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=71nDBQAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=9&source=gbs_api",
-      "infoLink": "http://books.google.com/books?id=71nDBQAAQBAJ&dq=javascript&hl=&source=gbs_api",
-      "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript_for_Kids.html?hl=&id=71nDBQAAQBAJ"
-    },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "PARTIAL",
-      "embeddable": true,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED",
-      "epub": {
-        "isAvailable": true
-      },
-      "pdf": {
-        "isAvailable": true
-      },
-      "webReaderLink": "http://play.google.com/books/reader?id=71nDBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "SAMPLE",
-      "quoteSharingAllowed": false
-    },
-    "searchInfo": {
-      "textSnippet": "JavaScript for Kids is a lighthearted introduction that teaches programming essentials through patient, step-by-step examples paired with funny illustrations."
-    }
-  },
-  {
-    "kind": "books#volume",
-    "id": "GpkCj_mgWU0C",
-    "etag": "YUe9TWz4kGs",
-    "selfLink": "https://www.googleapis.com/books/v1/volumes/GpkCj_mgWU0C",
-    "volumeInfo": {
-      "title": "Learning JavaScript",
-      "subtitle": "A Hands-On Guide to the Fundamentals of Modern JavaScript",
-      "authors": ["Tim Wright"],
-      "publisher": "Addison-Wesley",
-      "publishedDate": "2012-07-31",
-      "description": "Get Started Fast with Modern JavaScript Web Development! With the arrival of HTML5, jQuery, and Ajax, JavaScript web development skills are more valuable than ever! This complete, hands-on JavaScript tutorial covers everything you need to know now. Using line-by-line code walkthroughs and end-of-chapter exercises, top web developer and speaker Tim Wright will help you get results fast, even if you’ve never written a line of JavaScript before. Smart, friendly, enthusiastic, and packed with modern examples, Learning JavaScript covers both design-level and development-level JavaScript. You’ll find expert knowledge and best practices for everything from jQuery and interface design to code organization and front-end templating. Wright’s focused coverage includes regular break points and clear reviews that make modern JavaScript easier to learn—and easier to use! Learning JavaScript is your fastest route to success with JavaScript—whether you’re entirely new to the language or you need to sharpen and upgrade skills you first learned a decade ago! Coverage includes • Mastering all of the JavaScript concepts and terminology you need to write new programs or efficiently modify existing code • Creating robust, secure code for both the design and development levels • Maximizing usability, reusability, accessibility, clarity, security, and performance • Taking full advantage of the browser environments your code will run in • Accessing the DOM to create behaviors and data interactions • Storing data for easy and efficient access • Using variables, functions, loops, and other core language features • Interacting with users through events • Communicating with servers through Ajax • Improving your productivity with JavaScript libraries",
-      "industryIdentifiers": [
-        {
-          "type": "ISBN_13",
-          "identifier": "9780133016277"
+        "pageCount": 144,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "averageRating": 4,
+        "ratingsCount": 20,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=u3tgZ-hKARgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=u3tgZ-hKARgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
-        {
-          "type": "ISBN_10",
-          "identifier": "0133016277"
-        }
-      ],
-      "readingModes": {
-        "text": true,
-        "image": true
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=u3tgZ-hKARgC&printsec=frontcover&dq=flowers&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=u3tgZ-hKARgC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hope_for_the_Flowers.html?hl=&id=u3tgZ-hKARgC"
       },
-      "pageCount": 360,
-      "printType": "BOOK",
-      "categories": ["Computers"],
-      "maturityRating": "NOT_MATURE",
-      "allowAnonLogging": true,
-      "contentVersion": "0.4.4.0.preview.3",
-      "panelizationSummary": {
-        "containsEpubBubbles": false,
-        "containsImageBubbles": false
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
       },
-      "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=GpkCj_mgWU0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=GpkCj_mgWU0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=u3tgZ-hKARgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
       },
-      "language": "en",
-      "previewLink": "http://books.google.com/books?id=GpkCj_mgWU0C&printsec=frontcover&dq=javascript&hl=&cd=10&source=gbs_api",
-      "infoLink": "https://play.google.com/store/books/details?id=GpkCj_mgWU0C&source=gbs_api",
-      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GpkCj_mgWU0C"
+      "searchInfo": {
+        "textSnippet": "Hope&#39;s theme of life, moving through seeming death to a new and more beautiful life, has touched the hearts of millions of people. More than two million copies in print."
+      }
     },
-    "saleInfo": {
-      "country": "US",
-      "saleability": "FOR_SALE",
-      "isEbook": true,
-      "listPrice": {
-        "amount": 31.99,
-        "currencyCode": "USD"
-      },
-      "retailPrice": {
-        "amount": 17.99,
-        "currencyCode": "USD"
-      },
-      "buyLink": "https://play.google.com/store/books/details?id=GpkCj_mgWU0C&rdid=book-GpkCj_mgWU0C&rdot=1&source=gbs_api",
-      "offers": [
-        {
-          "finskyOfferType": 1,
-          "listPrice": {
-            "amountInMicros": 31990000,
-            "currencyCode": "USD"
+    {
+      "kind": "books#volume",
+      "id": "atDGvrHpFJAC",
+      "etag": "VUKMayG1ZsY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/atDGvrHpFJAC",
+      "volumeInfo": {
+        "title": "Flowers in the Attic",
+        "authors": ["V.C. Andrews"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2005-08-02",
+        "description": "Chris, Cathy, and the twins are to be kept hidden until their grandfather dies so that their mother will receive a sizeable inheritance, however, years pass and terrifying things occur as the four children grow up in their one room prison.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781416510888"
           },
-          "retailPrice": {
-            "amountInMicros": 17990000,
-            "currencyCode": "USD"
+          {
+            "type": "ISBN_10",
+            "identifier": "1416510885"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 389,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 101,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=atDGvrHpFJAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=atDGvrHpFJAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=atDGvrHpFJAC&printsec=frontcover&dq=flowers&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=atDGvrHpFJAC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_in_the_Attic.html?hl=&id=atDGvrHpFJAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=atDGvrHpFJAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Chris, Cathy, and the twins are to be kept hidden until their grandfather dies so that their mother will receive a sizeable inheritance, however, years pass and terrifying things occur as the four children grow up in their one room prison."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SL-zmrhf6o8C",
+      "etag": "/GGqS60IQnY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SL-zmrhf6o8C",
+      "volumeInfo": {
+        "title": "Flowers",
+        "publisher": "Sura Books",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "817478473X"
           },
-          "giftable": true
-        }
-      ]
-    },
-    "accessInfo": {
-      "country": "US",
-      "viewability": "PARTIAL",
-      "embeddable": true,
-      "publicDomain": false,
-      "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
-      "epub": {
-        "isAvailable": false
+          {
+            "type": "ISBN_13",
+            "identifier": "9788174784735"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=SL-zmrhf6o8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=SL-zmrhf6o8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=SL-zmrhf6o8C&printsec=frontcover&dq=flowers&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=SL-zmrhf6o8C&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=SL-zmrhf6o8C"
       },
-      "pdf": {
-        "isAvailable": false
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
       },
-      "webReaderLink": "http://play.google.com/books/reader?id=GpkCj_mgWU0C&hl=&printsec=frontcover&source=gbs_api",
-      "accessViewStatus": "SAMPLE",
-      "quoteSharingAllowed": false
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SL-zmrhf6o8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
     },
-    "searchInfo": {
-      "textSnippet": "Learning JavaScript is your fastest route to success with JavaScript—whether you’re entirely new to the language or you need to sharpen and upgrade skills you first learned a decade ago!"
+    {
+      "kind": "books#volume",
+      "id": "9aiqJ6Cp4zoC",
+      "etag": "Zq9f3fMVF/Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9aiqJ6Cp4zoC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Nicola Edwards"],
+        "publisher": "The Rosen Publishing Group, Inc",
+        "publishedDate": "2007-07-15",
+        "description": "Using simple text and illustrations, explains what flowers are, how they grow, and how people use them.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1404236996"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781404236998"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9aiqJ6Cp4zoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9aiqJ6Cp4zoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=9aiqJ6Cp4zoC&printsec=frontcover&dq=flowers&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=9aiqJ6Cp4zoC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=9aiqJ6Cp4zoC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9aiqJ6Cp4zoC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Using simple text and illustrations, explains what flowers are, how they grow, and how people use them."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "dARWpeusqiYC",
+      "etag": "R49buAKlF3Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dARWpeusqiYC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Kristin Joyce"],
+        "publisher": "Collins Pub San Francisco",
+        "publishedDate": "1996",
+        "description": "The Cultivated Gardener series pairs gorgeous full-color reproductions of masterpieces with quotes from great writers from the Middle Ages to the present. In Flowers, masterworks by Botticelli, Manet, Georgia O'Keeffe, and Van Gogh are accompanied by writings that evoke, explore, and delight in the beauty of flowers. 40 color illustrations.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0002250500"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780002250504"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 79,
+        "printType": "BOOK",
+        "categories": ["Gardening"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=dARWpeusqiYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=dARWpeusqiYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=dARWpeusqiYC&q=flowers&dq=flowers&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=dARWpeusqiYC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=dARWpeusqiYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=dARWpeusqiYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Cultivated Gardener series pairs gorgeous full-color reproductions of masterpieces with quotes from great writers from the Middle Ages to the present."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AwGialii_IkC",
+      "etag": "bJ86TKEpSsk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AwGialii_IkC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Jackie Dwyer", "Jacqueline Dwyer"],
+        "publisher": "The Rosen Publishing Group",
+        "publishedDate": "2001",
+        "description": "A simple description of what flowers are and how and where they grow.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0823956776"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780823956777"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AwGialii_IkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AwGialii_IkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=AwGialii_IkC&printsec=frontcover&dq=flowers&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=AwGialii_IkC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=AwGialii_IkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AwGialii_IkC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A simple description of what flowers are and how and where they grow."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "R5fS_tLWxxcC",
+      "etag": "HU7ff3tz0IY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/R5fS_tLWxxcC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Charlotte Guillain"],
+        "publisher": "Capstone Classroom",
+        "publishedDate": "2008-01",
+        "description": "Shows and describes different kinds of flowers.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1432909525"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781432909529"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=R5fS_tLWxxcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=R5fS_tLWxxcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=R5fS_tLWxxcC&printsec=frontcover&dq=flowers&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=R5fS_tLWxxcC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=R5fS_tLWxxcC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=R5fS_tLWxxcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Shows and describes different kinds of flowers."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3UySXcmTv6kC",
+      "etag": "LDJbF7ATg3M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3UySXcmTv6kC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Victoria Charles"],
+        "publisher": "Parkstone International",
+        "publishedDate": "2011-07-01",
+        "description": "Flowers are the centerpiece in the majority of pictorial still-lifes. By painting their colours and forms, artists from Brueghel to O’Keeffe have created symbols for both life and mortality. Van Gogh’s sunflowers, Monet’s water lilies and Matisse’s bouquets are, of course, unforgotten. Most of the works contained in Flowers are true masterpieces, which have often marked whole epochs and styles.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781780421827"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1780421826"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": ["Art"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3UySXcmTv6kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3UySXcmTv6kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=3UySXcmTv6kC&printsec=frontcover&dq=flowers&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=3UySXcmTv6kC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3UySXcmTv6kC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 5,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 5,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=3UySXcmTv6kC&rdid=book-3UySXcmTv6kC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 5000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 5000000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Flowers-sample-pdf.acsm?id=3UySXcmTv6kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3UySXcmTv6kC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Van Gogh’s sunflowers, Monet’s water lilies and Matisse’s bouquets are, of course, unforgotten. Most of the works contained in Flowers are true masterpieces, which have often marked whole epochs and styles."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1hfMDQAAQBAJ",
+      "etag": "ZcIYYSdwm40",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1hfMDQAAQBAJ",
+      "volumeInfo": {
+        "title": "The Flower Book",
+        "authors": ["Rachel Siegfried"],
+        "publisher": "Penguin",
+        "publishedDate": "2017-02-07",
+        "description": "The Flower Book explores 60 flowers, bloom-by-bloom in stunning portraiture. Lush macrophotography allows readers to see the details of each featured flower up close, from the amaryllis in spring, snapdragon in summer, and dahlia in fall to tropical wonders such as orchids and more. Intimate portraits of each flower include quick-reference profiles with tips for choosing the best blooms, care for cut stems, arranging recommendations, colors, shapes, and even growing tips to transform the home, from yard to tabletop. Gorgeous photographs throughout spotlight 30 sample floral arrangements that show how to design and build custom floral arrangements using featured blooms. Plus, a step-by-step techniques section walks beginners through the basics of foliage and fillers, bouquets, and arrangements to make this book as practical as it is beautiful. The Flower Book celebrates all the wonderful qualities of flowers-their sheer beauty, infinite variety, and power to evoke admiration-bloom by exquisite bloom.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781465464538"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1465464530"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 224,
+        "printType": "BOOK",
+        "categories": ["Crafts & Hobbies"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1hfMDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1hfMDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=1hfMDQAAQBAJ&printsec=frontcover&dq=flowers&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=1hfMDQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1hfMDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 11.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 11.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=1hfMDQAAQBAJ&rdid=book-1hfMDQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 11990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 11990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Flower_Book-sample-pdf.acsm?id=1hfMDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1hfMDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Flower Book explores 60 flowers, bloom-by-bloom in stunning portraiture."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2bCdaZ7KvDsC",
+      "etag": "1PNiaEy2+zM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2bCdaZ7KvDsC",
+      "volumeInfo": {
+        "title": "The Language of Flowers",
+        "subtitle": "The Floral Offering: a Token of Affection and Esteem; Comprising the Language and Poetry of Flowers ...",
+        "authors": ["Henrietta Dumont"],
+        "publishedDate": "1852",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "HARVARD:32044013658547"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 300,
+        "printType": "BOOK",
+        "categories": ["Flower language"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.full.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2bCdaZ7KvDsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2bCdaZ7KvDsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=2bCdaZ7KvDsC&printsec=frontcover&dq=flowers&hl=&cd=11&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=2bCdaZ7KvDsC&rdid=book-2bCdaZ7KvDsC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/The_Language_of_Flowers.epub?id=2bCdaZ7KvDsC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/The_Language_of_Flowers.pdf?id=2bCdaZ7KvDsC&hl=&output=pdf&sig=ACfU3U1n9agbciLzFXS4cd_vmKAJsTiEZA&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2bCdaZ7KvDsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_oG_iTxP1pIC",
+      "etag": "yf2r0TwNP/0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_oG_iTxP1pIC",
+      "volumeInfo": {
+        "title": "Flowers for Algernon",
+        "authors": ["Daniel Keyes"],
+        "publisher": "Houghton Mifflin Harcourt",
+        "publishedDate": "2007-12-01",
+        "description": "Oscar-winning film Charly starring Cliff Robertson and Claire Bloom-a mentally challenged man receives an operation that turns him into a genius...and introduces him to heartache.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0547539630"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780547539638"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 304,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 172,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.12.11.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_oG_iTxP1pIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_oG_iTxP1pIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=_oG_iTxP1pIC&printsec=frontcover&dq=flowers&hl=&cd=12&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=_oG_iTxP1pIC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_oG_iTxP1pIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 8.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 8.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=_oG_iTxP1pIC&rdid=book-_oG_iTxP1pIC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Flowers_for_Algernon-sample-epub.acsm?id=_oG_iTxP1pIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Flowers_for_Algernon-sample-pdf.acsm?id=_oG_iTxP1pIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=_oG_iTxP1pIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Oscar-winning film Charly starring Cliff Robertson and Claire Bloom-a mentally challenged man receives an operation that turns him into a genius...and introduces him to heartache."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8CSFs_Usw8MC",
+      "etag": "uiusrLJyyPk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8CSFs_Usw8MC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "subtitle": "Evolution of the Floral Architecture of Angiosperms",
+        "authors": ["Guillaumme Techerkez"],
+        "publisher": "Science Publishers",
+        "publishedDate": "2004-01-10",
+        "description": "This book delves in detail the intimate functioning of the flower, whether it is on the biochemical, cellular, molecular, or the organism scale. It explains the form and function of the flower, not only from the physiology and developmental biology as-pects, but also from ecology and evolutionary sciences, integrating genetic, demo-graphic, and biogeographical perspectives.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1578083117"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781578083114"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 182,
+        "printType": "BOOK",
+        "categories": ["Nature"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8CSFs_Usw8MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8CSFs_Usw8MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=8CSFs_Usw8MC&printsec=frontcover&dq=flowers&hl=&cd=13&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=8CSFs_Usw8MC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=8CSFs_Usw8MC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8CSFs_Usw8MC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book delves in detail the intimate functioning of the flower, whether it is on the biochemical, cellular, molecular, or the organism scale."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8_DfMSS9r9cC",
+      "etag": "46Z8KLNrxtQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8_DfMSS9r9cC",
+      "volumeInfo": {
+        "title": "Diversity and Evolutionary Biology of Tropical Flowers",
+        "authors": ["Peter K. Endress"],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "1996-07-25",
+        "description": "A unique account of the structure, biology and evolution of tropical flowering plants.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0521565103"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780521565103"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 511,
+        "printType": "BOOK",
+        "categories": ["Nature"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8_DfMSS9r9cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8_DfMSS9r9cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=8_DfMSS9r9cC&printsec=frontcover&dq=flowers&hl=&cd=14&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=8_DfMSS9r9cC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Diversity_and_Evolutionary_Biology_of_Tr.html?hl=&id=8_DfMSS9r9cC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8_DfMSS9r9cC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This volume concentrates on tropical flowers in which, whilst sharing many of the features seen in temperate flowers, exhibit phenomena which are purely tropical."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "71QjAQAAMAAJ",
+      "etag": "gEAZ7r8f7FY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/71QjAQAAMAAJ",
+      "volumeInfo": {
+        "title": "Garden flowers of autumn",
+        "authors": ["Ellen Eddy Shaw"],
+        "publishedDate": "1917",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "WISC:89038491197"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 193,
+        "printType": "BOOK",
+        "categories": ["Floriculture"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.full.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=71QjAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=71QjAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=71QjAQAAMAAJ&printsec=frontcover&dq=flowers&hl=&cd=15&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=71QjAQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=71QjAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=71QjAQAAMAAJ&rdid=book-71QjAQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Garden_flowers_of_autumn.pdf?id=71QjAQAAMAAJ&hl=&output=pdf&sig=ACfU3U3I4DOK7wj0uQZ2VtAIPepPb7seMg&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=71QjAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "b3GcVmBoi0gC",
+      "etag": "lIG7EAtxSeI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/b3GcVmBoi0gC",
+      "volumeInfo": {
+        "title": "Flowers, fruits, seeds",
+        "authors": ["Harcourt Brace"],
+        "publisher": "Houghton Mifflin Harcourt (HMH)",
+        "publishedDate": "1999-01",
+        "description": "Photographs of various plants and trees show characteristics of different leaves, seeds, and flowers and depict the cycle from flower to fruit to seed to flower.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0153142944"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780153142949"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 31,
+        "printType": "BOOK",
+        "categories": ["Education"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=b3GcVmBoi0gC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=b3GcVmBoi0gC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=b3GcVmBoi0gC&q=flowers&dq=flowers&hl=&cd=16&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=b3GcVmBoi0gC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_fruits_seeds.html?hl=&id=b3GcVmBoi0gC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=b3GcVmBoi0gC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Photographs of various plants and trees show characteristics of different leaves, seeds, and flowers and depict the cycle from flower to fruit to seed to flower."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "dD9_uTXl7roC",
+      "etag": "jt97y17e4mo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dD9_uTXl7roC",
+      "volumeInfo": {
+        "title": "The Language of Flowers",
+        "subtitle": "A Novel",
+        "authors": ["Vanessa Diffenbaugh"],
+        "publisher": "Ballantine Books",
+        "publishedDate": "2011-08-23",
+        "description": "NEW YORK TIMES BESTSELLER The Victorian language of flowers was used to convey romantic expressions: honeysuckle for devotion, asters for patience, and red roses for love. But for Victoria Jones, it’s been more useful in communicating mistrust and solitude. After a childhood spent in the foster-care system, she is unable to get close to anybody, and her only connection to the world is through flowers and their meanings. Now eighteen and emancipated from the system with nowhere to go, Victoria realizes she has a gift for helping others through the flowers she chooses for them. But an unexpected encounter with a mysterious stranger has her questioning what’s been missing in her life. And when she’s forced to confront a painful secret from her past, she must decide whether it’s worth risking everything for a second chance at happiness. Look for special features inside. Join the Circle for author chats and more.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345525567"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0345525566"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 336,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 255,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.11.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=dD9_uTXl7roC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=dD9_uTXl7roC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=dD9_uTXl7roC&printsec=frontcover&dq=flowers&hl=&cd=17&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=dD9_uTXl7roC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dD9_uTXl7roC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=dD9_uTXl7roC&rdid=book-dD9_uTXl7roC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Language_of_Flowers-sample-epub.acsm?id=dD9_uTXl7roC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=dD9_uTXl7roC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": ". . . This novel is both enchanting and cruel, full of beauty and anger. Diffenbaugh is a talented writer and a mesmerizing storyteller. She includes a flower dictionary in case we want to use the language ourselves."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2A0-x_VM3SIC",
+      "etag": "4+GhvvyWwLU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2A0-x_VM3SIC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Patricia Whitehouse"],
+        "publisher": "Capstone Classroom",
+        "publishedDate": "2009-05",
+        "description": "From a plant's color, shape, and function to its special features, such as light sensitivity, this book gives all the key facts about plants. Amazing close-ups and bright color photos show the plant world in all its splendor.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1410934799"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781410934796"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2A0-x_VM3SIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2A0-x_VM3SIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=2A0-x_VM3SIC&printsec=frontcover&dq=flowers&hl=&cd=18&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=2A0-x_VM3SIC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=2A0-x_VM3SIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2A0-x_VM3SIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "From a plant&#39;s color, shape, and function to its special features, such as light sensitivity, this book gives all the key facts about plants. Amazing close-ups and bright color photos show the plant world in all its splendor."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zaRoX10_UsMC",
+      "etag": "gpocW9tc8AM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zaRoX10_UsMC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Paul McEvoy"],
+        "publisher": "Blake Education",
+        "publishedDate": "2002",
+        "description": "Excellent col. photos, simple clear text, beginning readers. 5-8 yrs.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1865094595"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781865094595"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": ["Angiosperms"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zaRoX10_UsMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zaRoX10_UsMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=zaRoX10_UsMC&printsec=frontcover&dq=flowers&hl=&cd=19&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=zaRoX10_UsMC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=zaRoX10_UsMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zaRoX10_UsMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Excellent col. photos, simple clear text, beginning readers. 5-8 yrs."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fiBbdJ1sdA8C",
+      "etag": "Nm4Kk5N4XfA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fiBbdJ1sdA8C",
+      "volumeInfo": {
+        "title": "The Language of Flowers",
+        "subtitle": "A History",
+        "authors": ["Beverly Seaton"],
+        "publisher": "University of Virginia Press",
+        "publishedDate": "2012-10-10",
+        "description": "The author traces the phenomenon of ascribing sentimental meaning to floral imagery from its beginnings in Napoleonic France through its later transformations in England and America. At the heart of the book is a depiction of what the three most important flower books from each of the countries divulge about the period and the respective cultures. Seaton shows that the language of flowers was not a single and universally understood correlation of flowers to meanings that men and women used to communicate in matters of love and romance. The language differs from book to book, country to country. To place the language of flowers in social and literary perspective, the author examines the nineteenth-century uses of flowers in everyday life and in ceremonies and rituals and provides a brief history of floral symbolism. She also discusses the sentimental flower book, a genre especially intended for female readers. Two especially valuable features of the book are its table of correlations of flowers and their meanings from different sourcebooks and its complete bibliography of language of flower titles. This book will appeal not only to scholars in Victorian studies and women's studies but also to art historians, book collectors, museum curators, historians of horticulture, and anyone interested in nineteenth-century popular culture.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0813934532"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780813934532"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 234,
+        "printType": "BOOK",
+        "categories": ["Literary Criticism"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=fiBbdJ1sdA8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=fiBbdJ1sdA8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=fiBbdJ1sdA8C&printsec=frontcover&dq=flowers&hl=&cd=20&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=fiBbdJ1sdA8C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=fiBbdJ1sdA8C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 27.5,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 15.12,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=fiBbdJ1sdA8C&rdid=book-fiBbdJ1sdA8C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 27500000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 15120000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 24750000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 13610000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 180
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Language_of_Flowers-sample-pdf.acsm?id=fiBbdJ1sdA8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=fiBbdJ1sdA8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book will appeal not only to scholars in Victorian studies and women&#39;s studies but also to art historians, book collectors, museum curators, historians of horticulture, and anyone interested in nineteenth-century popular culture."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "F1wgqlNi8AMC",
+      "etag": "i7ZDaB+fYs8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/F1wgqlNi8AMC",
+      "volumeInfo": {
+        "title": "Flowers for Algernon",
+        "subtitle": "A Full-length Play",
+        "authors": ["David Rogers", "Daniel Keyes"],
+        "publisher": "Dramatic Publishing",
+        "publishedDate": "1969",
+        "description": "The compelling story of Charlie Gordon, willing victim of a strange experiment - a moron, a genius, a man in search of himself. Poignant, funny, tragic, but with a hope for the indomitable spirit of man, this unusual play tells a story you will long remember. It also offers a magnificent role.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0871295377"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780871295378"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 117,
+        "printType": "BOOK",
+        "categories": ["Accelerated readers"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=F1wgqlNi8AMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=F1wgqlNi8AMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=F1wgqlNi8AMC&printsec=frontcover&dq=flowers&hl=&cd=21&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=F1wgqlNi8AMC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_for_Algernon.html?hl=&id=F1wgqlNi8AMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=F1wgqlNi8AMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The compelling story of Charlie Gordon, willing victim of a strange experiment - a moron, a genius, a man in search of himself."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "CsEAAuCnWMYC",
+      "etag": "gMVRU6RgCBg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CsEAAuCnWMYC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Joy Richardson"],
+        "publisher": "Gareth Stevens",
+        "publishedDate": "2005-01-01",
+        "description": "Provides general information on flowers, including how they grow, why some are brightly colored, and how insects help in pollination.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0836845048"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780836845044"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=CsEAAuCnWMYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=CsEAAuCnWMYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=CsEAAuCnWMYC&printsec=frontcover&dq=flowers&hl=&cd=22&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=CsEAAuCnWMYC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=CsEAAuCnWMYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CsEAAuCnWMYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Provides general information on flowers, including how they grow, why some are brightly colored, and how insects help in pollination."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "u1muiVXhfBUC",
+      "etag": "9AZb9IFW1e0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/u1muiVXhfBUC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "subtitle": "growing, drying, preserving",
+        "authors": ["D. Carter", "Alan Cormack"],
+        "publisher": "Crescent",
+        "publishedDate": "1988-03-19",
+        "description": "A guide to growing, drying, and preserving flowers discusses the home drying and preserving processes, suggests how to use and arrange dried flowers, and offers tips on the general cultivation of plants",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0517612046"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780517612040"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 112,
+        "printType": "BOOK",
+        "categories": ["Crafts & Hobbies"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=u1muiVXhfBUC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=u1muiVXhfBUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=u1muiVXhfBUC&q=flowers&dq=flowers&hl=&cd=23&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=u1muiVXhfBUC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=u1muiVXhfBUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=u1muiVXhfBUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A guide to growing, drying, and preserving flowers discusses the home drying and preserving processes, suggests how to use and arrange dried flowers, and offers tips on the general cultivation of plants"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qyEOAAAAQAAJ",
+      "etag": "TObgLtSs5yM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qyEOAAAAQAAJ",
+      "volumeInfo": {
+        "title": "Flowers of loveliness, 12 groups of female figures designed by E.T. Parris, with poetical illustr. by the countess of Blessington",
+        "authors": [
+          "Edmund Thomas Parris",
+          "Marguerite Gardiner (countess of Blessington.)"
+        ],
+        "publishedDate": "1836",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OXFORD:590764972"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qyEOAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qyEOAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=qyEOAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&cd=24&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=qyEOAAAAQAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qyEOAAAAQAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=qyEOAAAAQAAJ&rdid=book-qyEOAAAAQAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Flowers_of_loveliness_12_groups_of_femal.pdf?id=qyEOAAAAQAAJ&hl=&output=pdf&sig=ACfU3U0oMw3PPYdN9NnTvY-eXaFNZwuPOA&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qyEOAAAAQAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2u8YAAAAYAAJ",
+      "etag": "5ghxH0BIepI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2u8YAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Wild Flowers",
+        "authors": ["Anne Pratt"],
+        "publishedDate": "1852",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "HARVARD:32044106356975"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": ["Botany"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2u8YAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2u8YAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=2u8YAAAAYAAJ&printsec=frontcover&dq=flowers&hl=&cd=25&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=2u8YAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2u8YAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=2u8YAAAAYAAJ&rdid=book-2u8YAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Wild_Flowers.pdf?id=2u8YAAAAYAAJ&hl=&output=pdf&sig=ACfU3U1VVhKt9h4A5AUTPo-lcsZueivJDQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2u8YAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ktkDAAAAQAAJ",
+      "etag": "gov97gpKEl4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ktkDAAAAQAAJ",
+      "volumeInfo": {
+        "title": "Flowers and their associations",
+        "authors": ["Anne Pratt"],
+        "publishedDate": "1840",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OXFORD:590805315"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ktkDAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ktkDAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ktkDAAAAQAAJ&printsec=frontcover&dq=flowers&hl=&cd=26&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ktkDAAAAQAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ktkDAAAAQAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=ktkDAAAAQAAJ&rdid=book-ktkDAAAAQAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Flowers_and_their_associations.epub?id=ktkDAAAAQAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Flowers_and_their_associations.pdf?id=ktkDAAAAQAAJ&hl=&output=pdf&sig=ACfU3U3t31n5hoTWLkxSLsAOK6I3ZhgdHw&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ktkDAAAAQAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3kqXDwAAQBAJ",
+      "etag": "sQYH/4tdWBc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3kqXDwAAQBAJ",
+      "volumeInfo": {
+        "title": "On Flowers",
+        "subtitle": "Lessons from an Accidental Florist",
+        "authors": ["Amy Merrick"],
+        "publisher": "Artisan",
+        "publishedDate": "2019-10-15",
+        "description": "A singular, personal celebration of the beauty and possibilities of nature Amy Merrick is a rare and special kind of artist who uses flowers to help us see the familiar in a completely new way. Her gift is to revel in the unexpected—like a sunny spring arrangement housed in a paper coffee cup—and to overturn preconceptions, whether she’s transforming a bouquet of supermarket carnations into a breathtaking centerpiece or elevating wild and weedy blooms foraged from city sidewalks. She uses the beauty that is waiting to be discovered all around us—in leaves, branches, seedpods, a fallen blossom—to tell a story of time and place. Merrick begins On Flowers with a primer containing all her hard-won secrets on the art of flower arranging, from selecting materials to mastering pleasing proportions. Then she brings readers along on her journey, with observations on flowers in New York City and at her family’s summer home in rural New Hampshire, working on a flower farm off the coast of Washington State, and studying ikebana in a jewel-box flower shop in Kyoto. We learn how to send flowers like a florist, and how to arrange them like a farm girl. We discover the poignancy in humble wildflowers, and also celebrate the luxury of fragrant blousy blooms. Collected here is an anthology of floral inspiration, a love letter to nature by an exceptional, accidental florist.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781579658120"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1579658121"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Crafts & Hobbies"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3kqXDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3kqXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=3kqXDwAAQBAJ&pg=PP1&dq=flowers&hl=&cd=27&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=3kqXDwAAQBAJ&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/On_Flowers.html?hl=&id=3kqXDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3kqXDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "We discover the poignancy in humble wildflowers, and also celebrate the luxury of fragrant blousy blooms. Collected here is an anthology of floral inspiration, a love letter to nature by an exceptional, accidental florist."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "caeJpIj9SdkC",
+      "etag": "W3mlUj/w7NI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/caeJpIj9SdkC",
+      "volumeInfo": {
+        "title": "Offering Flowers, Feeding Skulls",
+        "subtitle": "Popular Goddess Worship in West Bengal",
+        "authors": ["June McDaniel"],
+        "publisher": "Oxford University Press",
+        "publishedDate": "2004-08-05",
+        "description": "The Indian state of West Bengal is home to one of the world's most vibrant traditions of goddess worship. The year's biggest holidays are devoted to the goddesses Durga and Kali, with lavish rituals, decorated statues, fireworks, and parades. In Offering Flowers, Feeding Skulls, June McDaniel provides a broad, accessibly written overview of Bengali goddess worship. McDaniel identifies three major forms of goddess worship, and examines each through its myths, folklore, songs, rituals, sacred texts, and practitioners. In the folk/tribal strand, which is found in rural areas, local tribal goddesses are worshipped alongside Hindu goddesses, with an emphasis on possession, healing, and animism. The tantric/yogic strand focuses on ritual, meditation, and visualization as ways of experiencing the power of the goddess directly. The devotional or bhakti strand, which is the most popular form, involves the intense love and worship of a particular form of the goddess. McDaniel traces these strands through Bengali culture and explores how they are interwoven with each other as well as with other forms of Hinduism. She also discusses how these practices have been reinterpreted in the West, where goddess worship has gained the values of sexual freedom and psychological healing, but lost its emphases on devotion and asceticism. Offering Flowers, Feeding Skulls takes the reader inside the lives of practicing Shaktas, including holy women, hymn singers, philosophers, visionaries, gurus, ascetics, healers, musicians, and businessmen, and offers vivid descriptions of their rituals, practices, and daily lives. Drawing on years of fieldwork and extensive research, McDaniel paints a rich, expansive portrait of this fascinating religious tradition.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0195347137"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780195347135"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 368,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.5.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=caeJpIj9SdkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=caeJpIj9SdkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=caeJpIj9SdkC&printsec=frontcover&dq=flowers&hl=&cd=28&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=caeJpIj9SdkC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=caeJpIj9SdkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 52.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 42.39,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=caeJpIj9SdkC&rdid=book-caeJpIj9SdkC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 52990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 42390000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Offering_Flowers_Feeding_Skulls-sample-epub.acsm?id=caeJpIj9SdkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Offering_Flowers_Feeding_Skulls-sample-pdf.acsm?id=caeJpIj9SdkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=caeJpIj9SdkC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In Offering Flowers, Feeding Skulls, June McDaniel provides a broad, accessibly written overview of Bengali goddess worship."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YgK6iJyu-ZEC",
+      "etag": "IyieiW085Zg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YgK6iJyu-ZEC",
+      "volumeInfo": {
+        "title": "Preserving Flowers",
+        "subtitle": "Dried & Pressed Floral Designs for Every Season",
+        "authors": ["Diane Flowers"],
+        "publisher": "Sterling Publishing Company, Inc.",
+        "publishedDate": "2008",
+        "description": "Learn how easy pressing and preserving flowers can be and then create spectacular, one-of-a-king arrangements. More than 40 original designs for gorgeous wreaths, centerpieces, picture frames, and more, all featuring plants that you have dried, will showcase your talent and brighten your home.--COVER.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781402753886"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1402753888"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 128,
+        "printType": "BOOK",
+        "categories": ["Crafts & Hobbies"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.3.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YgK6iJyu-ZEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YgK6iJyu-ZEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=YgK6iJyu-ZEC&printsec=frontcover&dq=flowers&hl=&cd=29&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=YgK6iJyu-ZEC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Preserving_Flowers.html?hl=&id=YgK6iJyu-ZEC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Preserving_Flowers-sample-epub.acsm?id=YgK6iJyu-ZEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YgK6iJyu-ZEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Full-color, illustrated instructions for creating over forty dried and pressed floral designs and projects."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ordTwAfCqGcC",
+      "etag": "kJKIbuCy1qc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ordTwAfCqGcC",
+      "volumeInfo": {
+        "title": "Bead Flowers",
+        "authors": ["Minako Shimonagase"],
+        "publisher": "Japan Publications Trading",
+        "publishedDate": "2005",
+        "description": "Bead Flowers is a Japan Publications publication.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "4889961909"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9784889961904"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 96,
+        "printType": "BOOK",
+        "categories": ["Crafts & Hobbies"],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ordTwAfCqGcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ordTwAfCqGcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ordTwAfCqGcC&printsec=frontcover&dq=flowers&hl=&cd=30&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=ordTwAfCqGcC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Bead_Flowers.html?hl=&id=ordTwAfCqGcC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ordTwAfCqGcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Bead Flowers is a Japan Publications publication."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "G8J-DwAAQBAJ",
+      "etag": "ghZGsXFaZEI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/G8J-DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Flowers",
+        "subtitle": "Explore Nature with Fun Facts and Activities",
+        "authors": ["DK"],
+        "publisher": "Penguin",
+        "publishedDate": "2019-03-12",
+        "description": "A first nature book about flowers for children, this is the perfect companion for young minds eager to learn about the world of flowering plants. Children are encouraged to investigate and record all the wildflowers they find and get hands on with the fun activities, from pressing petals to preserve them to making a mini desert filled with cacti. With a mix of fantastic photographs and beautiful illustrations, Flowers takes you through everything you need to know about these beautiful blooms. Learn which plants flower and which don't, how pollinators help plants make seeds, and what the parts of a flower are.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781465487827"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1465487824"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 64,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=G8J-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=G8J-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=G8J-DwAAQBAJ&printsec=frontcover&dq=flowers&hl=&cd=31&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=G8J-DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=G8J-DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 5.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 5.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=G8J-DwAAQBAJ&rdid=book-G8J-DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 5990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 5990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Flowers-sample-epub.acsm?id=G8J-DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Flowers-sample-pdf.acsm?id=G8J-DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=G8J-DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A first nature book about flowers for children, this is the perfect companion for young minds eager to learn about the world of flowering plants."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_ojXNuzgHRcC",
+      "etag": "snN2a4hpko4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_ojXNuzgHRcC",
+      "volumeInfo": {
+        "title": "Flowers",
+        "authors": ["Vijaya Khisty Bodach"],
+        "publisher": "Capstone",
+        "publishedDate": "2006-07-01",
+        "description": "\"Simple text and photographs present the flowers of plants, how they grow, and their uses\"--Provided by publisher.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0736896198"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780736896191"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_ojXNuzgHRcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_ojXNuzgHRcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=_ojXNuzgHRcC&printsec=frontcover&dq=flowers&hl=&cd=32&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=_ojXNuzgHRcC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flowers.html?hl=&id=_ojXNuzgHRcC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=_ojXNuzgHRcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;Simple text and photographs present the flowers of plants, how they grow, and their uses&quot;--Provided by publisher."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Pv1eUCKdP-QC",
+      "etag": "rnvxjWyeG4s",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Pv1eUCKdP-QC",
+      "volumeInfo": {
+        "title": "Caring for Cut Flowers",
+        "authors": ["Rod Jones"],
+        "publisher": "Landlinks Press",
+        "publishedDate": "2001",
+        "description": "Caring for Cut Flowers shows florists and growers how to make cut flowers last longer. While proper postharvest techniques will not magically transform poor quality flowers into first class material, a few basic, inexpensive techniques can maximise the vase life of good quality material.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0643066314"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780643066311"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 191,
+        "printType": "BOOK",
+        "categories": ["Science"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Pv1eUCKdP-QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Pv1eUCKdP-QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Pv1eUCKdP-QC&printsec=frontcover&dq=flowers&hl=&cd=33&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Pv1eUCKdP-QC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Caring_for_Cut_Flowers.html?hl=&id=Pv1eUCKdP-QC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Pv1eUCKdP-QC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Caring for Cut Flowers shows florists and growers how to make cut flowers last longer."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ryB02bggqegC",
+      "etag": "I6/KAR4+Alg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ryB02bggqegC",
+      "volumeInfo": {
+        "title": "Stravaganza: City of Flowers",
+        "authors": ["Mary Hoffman"],
+        "publisher": "Bloomsbury Publishing USA",
+        "publishedDate": "2006-10-03",
+        "description": "Seventeen-year-old Sky joins Georgia and the other Stravagante, \"who travel between worlds and do what is required,\" when he leaves London for Giglia, a city similar to Renaissance Florence, and becomes involved in ancient feuds and palace intrigue.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781582347493"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1582347492"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 488,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 23,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ryB02bggqegC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ryB02bggqegC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ryB02bggqegC&printsec=frontcover&dq=flowers&hl=&cd=34&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=ryB02bggqegC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Stravaganza_City_of_Flowers.html?hl=&id=ryB02bggqegC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Stravaganza_City_of_Flowers-sample-epub.acsm?id=ryB02bggqegC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ryB02bggqegC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Seventeen-year-old Sky joins Georgia and the other Stravagante, &quot;who travel between worlds and do what is required,&quot; when he leaves London for Giglia, a city similar to Renaissance Florence, and becomes involved in ancient feuds and palace ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "6roh_cQf1N0C",
+      "etag": "FrYizvbUieE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6roh_cQf1N0C",
+      "volumeInfo": {
+        "title": "Plants and Flowers of Hawai_i",
+        "authors": ["S. H. Sohmer", "R. Gustafson"],
+        "publisher": "University of Hawaii Press",
+        "publishedDate": "1987-01",
+        "description": "The Hawaiian islands, isolated by thousands of miles of ocean for millions of years, posses a unique assemblage of native flowers and plants. This text describes more than 130 indigenous and endemic species of Hawaiian plants, their characteristics and habitats, and how they came to be. The photographs aim to provide an easy and accurate means of recognizing a given plant and serve as a permanent record of the Hawaiian islands' fast-disappearing native flora.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0824810961"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780824810962"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 160,
+        "printType": "BOOK",
+        "categories": ["Gardening"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.0.0.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6roh_cQf1N0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6roh_cQf1N0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=6roh_cQf1N0C&printsec=frontcover&dq=flowers&hl=&cd=35&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=6roh_cQf1N0C&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Plants_and_Flowers_of_Hawai_i.html?hl=&id=6roh_cQf1N0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Plants_and_Flowers_of_Hawai_i-sample-pdf.acsm?id=6roh_cQf1N0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6roh_cQf1N0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This text describes more than 130 indigenous and endemic species of Hawaiian plants, their characteristics and habitats, and how they came to be."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8IgCAAAAYAAJ",
+      "etag": "gD7s+T8H6MY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8IgCAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Wild Flowers of the Holy Land",
+        "authors": ["Harmah Zeller"],
+        "publishedDate": "1876",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "HARVARD:32044102803145"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8IgCAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8IgCAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=8IgCAAAAYAAJ&printsec=frontcover&dq=flowers&hl=&cd=36&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8IgCAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8IgCAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=8IgCAAAAYAAJ&rdid=book-8IgCAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Wild_Flowers_of_the_Holy_Land.epub?id=8IgCAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Wild_Flowers_of_the_Holy_Land.pdf?id=8IgCAAAAYAAJ&hl=&output=pdf&sig=ACfU3U00t9vvM4bb-d1gtYJNCDF_oJzMyg&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8IgCAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "6jRsF1nOmqgC",
+      "etag": "6u2AV4d/hTM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6jRsF1nOmqgC",
+      "volumeInfo": {
+        "title": "Edible & Medicinal Flowers",
+        "authors": ["Margaret Joan Roberts"],
+        "publisher": "New Africa Books",
+        "publishedDate": "2000",
+        "description": "This guide brings together an extraordinary collection of over 80 flowers, trees and herbs that not only give a magnificent show in the garden, but also have remarkable healing properties and can be used in cooking and as cosmetic alternatives.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0864864671"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780864864673"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 160,
+        "printType": "BOOK",
+        "categories": ["Cooking (Flowers)"],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6jRsF1nOmqgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6jRsF1nOmqgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=6jRsF1nOmqgC&printsec=frontcover&dq=flowers&hl=&cd=37&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=6jRsF1nOmqgC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Edible_Medicinal_Flowers.html?hl=&id=6jRsF1nOmqgC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6jRsF1nOmqgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This guide brings together an extraordinary collection of over 80 flowers, trees and herbs that not only give a magnificent show in the garden, but also have remarkable healing properties and can be used in cooking and as cosmetic ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VvLzNZLkSDcC",
+      "etag": "wYw6oUVxqFI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VvLzNZLkSDcC",
+      "volumeInfo": {
+        "title": "Among Flowers",
+        "subtitle": "A Walk in the Himalaya",
+        "authors": ["Jamaica Kincaid"],
+        "publisher": "National Geographic Books",
+        "publishedDate": "2011-06-15",
+        "description": "In this delightful hybrid of a book—part memoir and part travel journal—the bestselling author takes us deep into the mountains of Nepal with a trio of botanist friends in search of native Himalayan plants that will grow in her Vermont garden. Alighting from a plane in the dramatic Annapurna Valley, the ominous signs of Nepal's Maoist guerrillas are all around—an alarming presence that accompanies the travelers throughout their trek. Undaunted, the group sets off into the mountains with Sherpas and bearers, entering an exotic world of spectacular landscapes, vertiginous slopes, isolated villages, herds of yaks, and giant rhododendron, thirty feet tall. The landscape and flora and so much else of what Kincaid finds in the Himalaya—including fruit bats, colorful Buddhist prayer flags, and the hated leeches that plague much of the trip—are new to her, and she approaches it all with an acute sense of wonder and a deft eye for detail. In beautiful, introspective prose, Kincaid intertwines the harrowing Maoist encounters with exciting botanical discoveries, fascinating daily details, and lyrical musings on gardens, nature, home, and family. From the Trade Paperback edition.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781426209017"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1426209010"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 208,
+        "printType": "BOOK",
+        "categories": ["Travel"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VvLzNZLkSDcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VvLzNZLkSDcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=VvLzNZLkSDcC&printsec=frontcover&dq=flowers&hl=&cd=38&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=VvLzNZLkSDcC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Among_Flowers.html?hl=&id=VvLzNZLkSDcC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Among_Flowers-sample-epub.acsm?id=VvLzNZLkSDcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VvLzNZLkSDcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "From the Trade Paperback edition."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KN5TUmGSPaoC",
+      "etag": "RjG/gDBTi7k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KN5TUmGSPaoC",
+      "volumeInfo": {
+        "title": "Making Bead Flowers and Bouquets",
+        "authors": ["Virginia Nathanson"],
+        "publisher": "Courier Corporation",
+        "publishedDate": "2011-11",
+        "description": "Step-by-step instructions and scores of illustrations show aspiring beadworkers how to assemble more than 50 botanically accurate specimens of African violets, hyacinths, sunflowers, miniature versions of irises, jonquils, tea roses, and many other glittering beauties. Also, helpful suggestions for creating table decorations, attractive bouquets, and festive Christmas ornaments.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0486422461"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780486422466"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 192,
+        "printType": "BOOK",
+        "categories": ["Crafts & Hobbies"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=KN5TUmGSPaoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KN5TUmGSPaoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=KN5TUmGSPaoC&printsec=frontcover&dq=flowers&hl=&cd=39&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=KN5TUmGSPaoC&dq=flowers&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Making_Bead_Flowers_and_Bouquets.html?hl=&id=KN5TUmGSPaoC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KN5TUmGSPaoC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Step-by-step instructions and scores of illustrations show aspiring beadworkers how to assemble more than 50 botanically accurate specimens of African violets, hyacinths, sunflowers, miniature versions of irises, jonquils, tea roses, and ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TERDAAAAYAAJ",
+      "etag": "AZps7WORsOQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TERDAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Flowers",
+        "subtitle": "Their Origin, Shapes, Perfumes, and Colours",
+        "authors": ["John Ellor Taylor"],
+        "publishedDate": "1906",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "CORNELL:31924000612949"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 347,
+        "printType": "BOOK",
+        "categories": ["Botany"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.full.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TERDAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TERDAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=TERDAAAAYAAJ&pg=PP1&dq=flowers&hl=&cd=40&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=TERDAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=TERDAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=TERDAAAAYAAJ&rdid=book-TERDAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Flowers.pdf?id=TERDAAAAYAAJ&hl=&output=pdf&sig=ACfU3U1oBqN446N4UoN32VwQW4__sVqcow&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TERDAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
     }
-  }
-]
+  ]
+}

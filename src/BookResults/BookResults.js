@@ -1,14 +1,20 @@
 import React from "react";
 import Book from "../Book/Book";
 import books from "../data/books.json";
+import styled from "styled-components";
+
+const Container = styled.div`
+  max-width: 1200px;
+  margin: auto;
+`;
 
 const BookResults = () => {
   return (
-    <div>
-      {books.map(book => (
-        <Book book={book} />
+    <Container>
+      {books.items.map((book, index) => (
+        <Book key={index} book={book} />
       ))}
-    </div>
+    </Container>
   );
 };
 
