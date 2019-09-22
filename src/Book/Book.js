@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Flex, Box, Link, Image, Text } from "rebass/styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { faStar as faRegularStar } from "@fortawesome/free-regular-svg-icons";
 
 const StarContainer = styled.span`
   width: 16px;
@@ -13,8 +12,16 @@ const Card = styled(Flex)`
   padding: 20px;
   flex-direction: row;
   justify-content: flex-start;
-  border-top: solid 1px #dadada;
+  border-bottom: solid 1px #dadada;
 `;
+
+const tryGetThumbnail = book => {
+  try {
+    return book.volumeInfo.imageLinks.thumbnail;
+  } catch (e) {
+    return "";
+  }
+};
 
 const Book = ({ book }) => {
   const title = book.volumeInfo.title;
@@ -25,7 +32,7 @@ const Book = ({ book }) => {
   if (firstAuthor) {
     firstAuthor = `by ${firstAuthor}`;
   }
-  const thumbnail = book.volumeInfo.imageLinks.thumbnail;
+  const thumbnail = tryGetThumbnail(book);
   return (
     <Card>
       <Link href="#">
@@ -73,11 +80,10 @@ const Book = ({ book }) => {
             >
               {[0, 1, 2, 3, 4].map(index => {
                 return (
-                  <StarContainer>
+                  <StarContainer key={index}>
                     <FontAwesomeIcon
                       icon={faStar}
                       size="sm"
-                      key={index}
                       mask={["far"]}
                       color="#FF8C00"
                     />
@@ -89,11 +95,10 @@ const Book = ({ book }) => {
           <Box justifyContent="center">
             {[0, 1, 2, 3, 4].map(index => {
               return (
-                <StarContainer>
+                <StarContainer key={index}>
                   <FontAwesomeIcon
                     icon={faStar}
                     size="sm"
-                    key={index}
                     mask={["far"]}
                     color="#f2f2f2"
                   />
